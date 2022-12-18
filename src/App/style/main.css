@@ -1,0 +1,177 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* ----------------------HOME---------------------------- */
+
+.mainNav{
+    background: #ffffff;
+    color: darkred;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    padding-left: 150px;
+    padding-right: 150px;
+    align-items: center;
+    border-bottom-color: darkred;
+    border-bottom-width: 10px;
+}
+
+.centerUl{
+    display:inline-flex;
+    gap: 30px;
+}
+
+.centerUl .centerLi{
+    list-style: none;
+    padding: 20px;
+}
+
+.centerUl .centerLi .centerA{
+    color: darkred;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.centerUl .centerLi:hover{
+    background-color: black;
+    padding: 20px;
+}
+
+.rightUl{
+    display:inline-flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.rightUl .rightLi{
+    list-style: none;
+    padding: 20px;
+}
+
+.rightUl .rightLi .rightA{
+    color: darkred;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.rightUl .rightLi .rightA:hover{
+    color: gray;
+}
+
+.leftDiv .leftDivA{
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 800;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.leftDiv .leftDivA:hover{
+    color: darkred;
+}
+
+.homeCenter{
+    background-color: darkred;
+    height: 600px;
+    justify-content: center;
+}
+
+.homeCenterH1{
+    padding-top: 220px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+    padding-bottom: 15px;
+    color: yellow;
+}
+
+.homeCenterh4{
+    color: #ffffff;
+    letter-spacing: 5px;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.iconMain{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-bottom: 30px;
+}
+
+.iconH3{
+    color: darkred;
+    letter-spacing: 3px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+.homeCenterButton{
+    border-color: green;
+    margin-top: 100px;
+    color: purple;
+}
+.marketPlace{
+    background-image: url('../images/happycustomer.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.marketPlaceH1{
+    font-size: 38px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+    font-variant: small-caps;
+    padding-top: 250px;
+    color: darkred;
+    font-weight: 900;
+}
+
+.marketPlaceP{
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.servicesInner{
+    display: flex;
+}
+
+.servicesH1{
+    letter-spacing: 5px;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.serviceH3{
+    padding-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.services{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.servicesP{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* ------------------------------------------------------------ */
+
+/* .centerUl .centerLi .centerA:hover{
+    color: #ffffff;
+} */
